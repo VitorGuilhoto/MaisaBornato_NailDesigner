@@ -31,7 +31,8 @@ a:hover{
 
 h1{
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-family: "Great Vibes", cursive;
 }
 
 .Cabeçalho{
@@ -69,9 +70,24 @@ h1{
 
 .div_produto{
     background-color: white;
-    width: 300px;
+    width: 350px;
+    height: 350px;
     margin: 5vh;
     border-radius: 20px;
+}
+
+#instagram{
+    padding-top: 100px;
+    text-align: center;
+}
+
+#contato{
+    padding-top: 100px;
+    text-align: center;
+}
+#localização{
+    padding-top: 100px;
+    text-align: center;
 }
 
 .Rodape{
@@ -114,9 +130,11 @@ h1{
 }
 
 .img_produto{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
+    margin: 25px;
+    border:solid #8061d7;
 }
 
 
