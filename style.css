@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+}
+
+header {
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #e8c0ff;
+}
+
+h1{
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+
+.Cabeçalho{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr;
+    background-color:#cea8f5;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    border-bottom: 1px solid #ddd;
+}
+
+#div_sobre{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1fr;
+}
+
+#catalogo{
+    padding-top: 100px;
+    text-align: center;
+}
+
+.catalogo_principal{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #cea8f5;
+    text-align: center;
+    align-items: center;
+    border-radius: 50px;
+    margin: 5vh;
+}
+
+.div_produto{
+    background-color: white;
+    width: 300px;
+    margin: 5vh;
+    border-radius: 20px;
+}
+
+.Rodape{
+    height: 40px;
+    background-color: #e8c0ff;
+    color:#000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.texto_sobre{
+    text-align: center;
+    margin: auto;
+}
+
+.img_logo{
+    width: 100px; /* Largura desejada */
+    height: 100px; /* Altura desejada (igual à largura para ser um círculo) */
+    border-radius: 100%; /* Torna a imagem redonda */
+    padding-top: 10px;
+    object-fit: cover; /* Ajusta a imagem dentro do contêiner */
+
+}
+
+.img_whatsapp{
+    width: 80px; /* Largura desejada */
+    height: 80px; /* Altura desejada (igual à largura para ser um círculo) */
+    border-radius: 30%; /* Torna a imagem redonda */
+    padding-top: 10px;
+    object-fit: cover; /* Ajusta a imagem dentro do contêiner */
+}
+
+.foto_principal{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    max-width: 800px;
+}
+
+.img_produto{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+
