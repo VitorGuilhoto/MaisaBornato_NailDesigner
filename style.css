@@ -37,7 +37,7 @@ h1{
 
 .Cabeçalho{
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr;
     background-color:#cea8f5;
     text-align: center;
@@ -76,6 +76,11 @@ h1{
     border-radius: 20px;
 }
 
+.div_feed{
+    width: 50vh;
+    height: 10vh;
+}
+
 #instagram{
     padding-top: 100px;
     text-align: center;
@@ -89,6 +94,8 @@ h1{
     padding-top: 100px;
     text-align: center;
 }
+
+
 
 .Rodape{
     height: 40px;
@@ -117,7 +124,7 @@ h1{
 .img_whatsapp{
     width: 80px; /* Largura desejada */
     height: 80px; /* Altura desejada (igual à largura para ser um círculo) */
-    border-radius: 30%; /* Torna a imagem redonda */
+    border-radius: 20%; /* Torna a imagem redonda */
     padding-top: 10px;
     object-fit: cover; /* Ajusta a imagem dentro do contêiner */
 }
