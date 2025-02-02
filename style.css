@@ -144,5 +144,61 @@ h1{
     border:solid #8061d7;
 }
 
+@media only screen and (max-width: 960px) {
+    .sobre{
+        display: none;
+    }
+    .catalogo{
+        display: none;
+    }
+    .contato{
+        display: none;
+    }
+    .localizacao_cabecalho{
+        display: none;
+    }
+    .Cabeçalho{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-color:#cea8f5;
+    text-align: center;
+    justify-items: end; 
+    align-items: center;
+    font-size: large;
+    border-bottom: 1px solid #ddd;
+    }
+    .img_whatsapp{
+        margin:20px;
+    }
+    .img_logo{
+        margin: 20px;
+        margin-right: 250px;
+    }
+
+    .catalogo_principal{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: 1fr;
+        background-color: #cea8f5;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        margin: 5vh;
+    }
+    
+    #div_sobre{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr;
+    }
+
+    .localizacao{
+       
+    }
+}
+
+
 
 
