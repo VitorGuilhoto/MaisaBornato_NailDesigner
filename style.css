@@ -116,17 +116,16 @@ h1{
     width: 100px; /* Largura desejada */
     height: 100px; /* Altura desejada (igual à largura para ser um círculo) */
     border-radius: 100%; /* Torna a imagem redonda */
-    padding-top: 10px;
     object-fit: cover; /* Ajusta a imagem dentro do contêiner */
-
+    border:solid #8061d7
 }
 
 .img_whatsapp{
     width: 80px; /* Largura desejada */
     height: 80px; /* Altura desejada (igual à largura para ser um círculo) */
-    border-radius: 20%; /* Torna a imagem redonda */
-    padding-top: 10px;
+    border-radius: 50%; /* Torna a imagem redonda */
     object-fit: cover; /* Ajusta a imagem dentro do contêiner */
+    border: 5px solid darkgreen;
 }
 
 .foto_principal{
@@ -170,10 +169,13 @@ h1{
     }
     .img_whatsapp{
         margin:20px;
+        border-radius: 50%;
+        border: 5px solid darkgreen;
     }
     .img_logo{
         margin: 20px;
         margin-right: 250px;
+
     }
 
     .catalogo_principal{
@@ -194,8 +196,8 @@ h1{
     grid-template-rows: 1fr;
     }
 
-    .localizacao{
-       
+    .div_produto{
+        margin-left: 90px;
     }
 }
 
