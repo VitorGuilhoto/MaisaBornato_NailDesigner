@@ -81,12 +81,39 @@ h1{
     height: 10vh;
 }
 
+.contato{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-color: #cea8f5;
+    text-align: center;
+    align-items: center;
+    height: 100px;
+    border-radius: 50px;
+    margin: 5vh;
+}
+
+.text_contato{
+    color: #8061d7;
+    font-size: 70px;
+}
+
+.style_text_contato{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+}
+
+.icones{
+    height: 40px;
+}
+
 #instagram{
     padding-top: 100px;
     text-align: center;
 }
 
-#contato{
+#contato_ancora{
     padding-top: 100px;
     text-align: center;
 }
@@ -128,7 +155,7 @@ h1{
     border: 5px solid darkgreen;
 }
 
-.foto_principal{
+.foto{
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -143,6 +170,55 @@ h1{
     border:solid #8061d7;
 }
 
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 100%;
+}
+
+.slide {
+    min-width: 100%;
+    transition: 0.5s;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+.navigation {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+    padding: 0 20px;
+}
+
+.nav-btn{
+    background-color: transparent;
+    border: none;
+    color: #8061d7;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.nav-btn:hover {
+    background-color: #cea8f5;
+}
+
 @media only screen and (max-width: 960px) {
     .sobre{
         display: none;
@@ -150,7 +226,7 @@ h1{
     .catalogo{
         display: none;
     }
-    .contato{
+    .contato_cabe{
         display: none;
     }
     .localizacao_cabecalho{
@@ -190,6 +266,18 @@ h1{
         margin: 5vh;
     }
     
+    .contato{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        background-color: #cea8f5;
+        text-align: center;
+        align-items: center;
+        height: 100px;
+        border-radius: 50px;
+        margin: 5vh;
+    }
+    
     #div_sobre{
     display: grid;
     grid-template-columns: repeat(1,1fr);
@@ -198,6 +286,17 @@ h1{
 
     .div_produto{
         margin-left: 90px;
+    }
+
+    .text_contato{
+        color: #8061d7;
+        font-size: 30px;
+    }
+
+    .style_text_contato{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
     }
 }
 
